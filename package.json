@@ -1,0 +1,20 @@
+{
+  "name": "notify-dir",
+  "version": "0.0.1",
+  "description": "Monitor and notify of directory changes.",
+  "author": {
+    "name": "Chris Markle",
+    "email": "cmarkle@emcien.com"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "coffee-script": "1.3.3",
+    "watch": "0.5.1",
+    "nodemailer": "0.3.44",
+    "underscore": "1.4.4",
+    "nconf": "~0.6.7"
+  },
+  "bin": {
+    "notify-dir": "./notify-dir-cmd"
+  }
+}

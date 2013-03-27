@@ -1,0 +1,25 @@
+{
+  "directories" : [
+    {
+      "path" : "/Users/cmarkle/Documents/feeds",
+      "to" : "cmarkle@emcien.com"
+    }, {
+      "path" : "/Users/cmarkle/Documents/feeds2",
+      "to" : "somebody@emcien.com"
+    }
+  ],
+  "defaults" : {
+    "to" : "nobody@emcien.com",
+    "from" : "Emcien System <system@emcien.com>",
+    "subject" : "A NotifyDir Event has Occured",
+    "html" : "<h3>The following files have been uploaded:</h3>",
+    "text" : "The following files have been uploaded:\n"
+  },
+  "mail_settings" : {
+    "transport" : "sendmail",
+    "options" : {
+      "path" : "/usr/local/bin/msmtp"
+    }
+  },
+  "debounce_timeout" : 60000
+}
